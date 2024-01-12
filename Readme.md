@@ -7,14 +7,14 @@ Each group has then time to do their talks in seperate rooms until the timer has
 
 Get yourself a bot and its token from the Telegram [BotFather](https://telegram.org/faq#q-how-do-i-create-a-bot) and save the token to `token.txt`. Invite the bot and the players into a new telegram group and run the bot:
 
-```
+```bash
 poetry install
 poetry run main.py
 ```
 
 or (needs [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot))
 
-```
+```bash
 python main.py
 ```
 
